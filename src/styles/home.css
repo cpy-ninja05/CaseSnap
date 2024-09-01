@@ -1,0 +1,203 @@
+/* HOME PAGE */
+:root {
+    --x-light-themerestbackgrounddefault-background: rgba(255, 255, 255, 1);
+    --x-light-themerestforegrounddefault-foreground-1-424242: rgba(66, 66, 66, 1);
+  }
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+
+.desktop {
+    
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+
+    width: 100%;
+   
+  }
+  
+  .desktop .overlap-group-wrapper {
+    background-color: #ffffff;
+    height: 1024px;
+    width: 1440px;
+  }
+  
+  .desktop .overlap-group {
+    height: 1041px;
+    position: relative;
+    top: -17px;
+  }
+  
+  .desktop .text {
+    color: #000000;
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 12px;
+    font-weight: 400;
+    left: 1308px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 54px;
+  }
+  
+ .background {
+  background-image: url('../assets/cover.png'); /* Update with the correct path */
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 100vw;
+ 
+}
+  .desktop .filter {
+    background-color: #00000066;
+    height: 1041px;
+    overflow: hidden;
+  }
+  
+  .desktop .frame {
+    border: 1px solid;
+    border-color: #000000;
+    box-shadow: 0px 4px 4px #00000040;
+    height: 4478px;
+    width: 1928px;
+  }
+  
+  .desktop .hero-shadow {
+    height: 922px;
+    left: 0;
+    position: absolute;
+    top: 17px;
+    width: 1248px;
+  }
+  
+  .desktop .headings {
+    align-items: center;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 16px;
+    left: 273px;
+    position: absolute;
+    top: 357px;
+  }
+  
+  .desktop .text-wrapper {
+    color: #ffffff;
+    font-family: "Montserrat-SemiBold", Helvetica;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 28px;
+    margin-top: -1px;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .desktop .serving-humanity {
+    color: #ffffff;
+    font-family: "Montserrat-SemiBold", Helvetica;
+    font-size: 56px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 78.4px;
+    position: relative;
+    text-align: center;
+    width: fit-content;
+  }
+  
+  .desktop .div {
+    color: #ffffff;
+    font-family: "Montserrat-Regular", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 32px;
+    position: relative;
+    text-align: center;
+    width: 786px;
+  }
+  
+  .desktop .donate-button {
+    all: unset;
+    align-items: center;
+    background-color: #ee3123;
+    box-sizing: border-box;
+    display: flex;
+    gap: 8px;
+    height: 48px;
+    justify-content: center;
+    padding: 8px 24px;
+    position: relative;
+    width: 238px;
+  }
+  
+  .desktop .text-wrapper-2 {
+    color: #ffffff;
+    font-family: "Montserrat-SemiBold", Helvetica;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    width: fit-content;
+  }
+  
+  .desktop .text-wrapper-3 {
+    color: #ffffff;
+    font-family: "Montserrat-SemiBold", Helvetica;
+    font-size: 25px;
+    font-weight: 600;
+    left: 18px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 61px;
+    white-space: nowrap;
+    width: 206px;
+  }
+  
+  .desktop .nav-items {
+    align-items: flex-start;
+    display: inline-flex;
+    gap: 56px;
+    left: 659px;
+    position: absolute;
+    top: 70px;
+  }
+  
+  .desktop .nav-item {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 4px;
+    position: relative;
+  }
+  
+  .desktop .text-wrapper-4 {
+    color: #ffffff;
+    font-family: "Montserrat-SemiBold", Helvetica;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    width: fit-content;
+  }

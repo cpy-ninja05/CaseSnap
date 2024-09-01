@@ -1,0 +1,231 @@
+.desktop9,
+.desktop9 * {
+    width:100vw;
+    height:100vh;
+  box-sizing: border-box;
+  
+}
+.desktop9 {
+  background: #ffffff;
+  height: 1024px;
+  position: relative;
+  overflow: hidden;
+  
+}
+.search {
+  position: absolute;
+  inset: 0;
+}
+.rectangle31 {
+  background: #ffffff;
+  border-radius: 11.92px;
+  border-style: solid;
+  border-color: rgba(145, 151, 179, 0.5);
+  border-width: 0.99px;
+  width: 336.28px;
+  height: 51.46px;
+  position: absolute;
+  left: 1092px;
+  top: 36px;
+  box-shadow: 0px 1.99px 1.99px 0px rgba(226, 236, 249, 0.5);
+}
+.search2 {
+  color: #b5b7c0;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 13.911988258361816px;
+  letter-spacing: -0.01em;
+  font-weight: 400;
+  position: absolute;
+  left: 1154.27px;
+  top: 49.54px;
+  width: 76.06px;
+  height: 28.62px;
+}
+.search1 {
+  width: 37.36px;
+  height: 32.5px;
+  position: absolute;
+  left: 1104.45px;
+  top: 45.48px;
+  overflow: visible;
+}
+.sidebar {
+  background: #02040f;
+  border-radius: 10.79px;
+  border-style: solid;
+  border-color: #f8f8ff;
+  border-width: 2.02px;
+  padding: 10.79px;
+  position: absolute;
+  right: 613px;
+  left: 410px;
+  bottom: 0px;
+  top: -9px;
+  box-shadow: 0px 2.7px 4.05px 0px rgba(15, 11, 11, 0.1);
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(-1, 1);
+  overflow: hidden;
+}
+.frame666 {
+  border-radius: 10.79px;
+  border-style: solid;
+  border-color: #f5f5f5;
+  border-width: 2.02px;
+  position: absolute;
+  right: 2px;
+  left: 1px;
+  bottom: -6px;
+  top: 1px;
+  overflow: hidden;
+}
+.frame668 {
+  border-radius: 4.05px;
+  width: 19.71%;
+  height: 6.86%;
+  position: absolute;
+  right: 5.82%;
+  left: 74.47%;
+  bottom: 88.37%;
+  top: 4.77%;
+  overflow: visible;
+}
+.rectangle2967 {
+  background: #000000;
+  width: 89.43%;
+  height: 14.42%;
+  position: absolute;
+  right: -84.18%;
+  left: 94.75%;
+  bottom: 70.12%;
+  top: 15.46%;
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(-1, 1);
+}
+.welcome-text{
+    border: 2px solid red;
+  color: #ffffff;
+  text-align: left;
+  font-family: "Montserrat-Regular", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  position: absolute;
+  
+  left:25%;
+  width: 25%;
+  bottom: 36.01%;
+  top: 17%;
+  height: 46.99%;
+  transform-origin: 0 0;
+  margin-left: 10px;
+  transform: rotate(0deg) scale(-1, 1);
+}
+.outer {
+
+  background: #f9fafa;
+  border-radius: 8.09px;
+  border-style: solid;
+  border-color: #e0e0e0;
+  border-width: 1.35px;
+  width: 988px;
+  height: 106px;
+  position: absolute;
+  left: 427px;
+  top: 85vh;
+  overflow: hidden;
+  border:2px solid red;
+}
+.mainMessageBox {
+  background: var(--light-theme-rest-background-default-background, #ffffff);
+  border-radius: 6.74px;
+  border-style: solid;
+  border-color: #02040f;
+  border-width: 1.35px;
+  width: 631.15px;
+  height: 67.43px;
+  position: absolute;
+  left: calc(50% - 315.65px);
+  top: calc(50% - 33.65px);
+  box-shadow: 0px 0.69px 1.54px 0px rgba(0, 0, 0, 0.13),
+    0px 0.13px 0.39px 0px rgba(0, 0, 0, 0.11);
+}
+.body {
+  color: var(
+    --light-theme-rest-foreground-default-foreground-1-424242,
+    #424242
+  );
+  text-align: left;
+  font-family: "Montserrat-Medium", sans-serif;
+  font-size: 16.183334350585938px;
+  line-height: 17.16px;
+  font-weight: 500;
+  position: absolute;
+  left: 16.18px;
+  top: calc(50% - 8.77px);
+  width: 650.4px;
+}
+.send {
+  width: 33.72px;
+  height: 33.72px;
+  position: absolute;
+  left: 578.55px;
+  top: 15.51px;
+  overflow: visible;
+}
+.emojis {
+  width: 33.72px;
+  height: 33.72px;
+  position: absolute;
+  left: 531.35px;
+  top: 15.51px;
+  overflow: visible;
+}
+.outlineMessagesCoversationPaperclip {
+  width: 33.72px;
+  height: 33.72px;
+  position: absolute;
+  left: 484.15px;
+  top: 15.51px;
+  overflow: visible;
+}
+.frame3017 {
+  width: 53px;
+  height: 44px;
+  position: absolute;
+  left: 464.65px;
+  top: 9.65px;
+  overflow: hidden;
+}
+.home {
+  background: rgba(0, 0, 0, 0);
+  width: 39px;
+  height: 34px;
+  position: absolute;
+  left: 490px;
+  top: 642px;
+  overflow: hidden;
+}
+.caseSnapAi {
+  color: #000000;
+  text-align: left;
+  font-family: "PlayfairDisplay-Bold", sans-serif;
+  font-size: 30px;
+  line-height: 50px;
+  font-weight: 700;
+  position: absolute;
+  left: calc(50% - -55px);
+  bottom: 57.81%;
+  top: 34.18%;
+  height: 8.01%;
+  width: 178px;
+  -webkit-text-stroke: 1px #000000;
+}
+.heroShadow {
+  width: 1140px;
+  height: 831px;
+  position: absolute;
+  left: 1475.22px;
+  top: 642px;
+  transform: translate(-323.22px, -108px);
+  overflow: visible;
+}
