@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "../style.css";
 import "../styles/signup.css";
 
-export const Desktop7 = ({ className, ...props }) => {
+export const SignUp= ({ className, ...props }) => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 

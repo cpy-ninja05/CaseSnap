@@ -5,9 +5,8 @@ import "../styles/chat.css";
 const Chat = ({ className, ...props }) => {
   return (
     <div className={`desktop9 ${className}`} {...props}>
-      <div className="rectangle31"></div>
-      <div className="search2">Search</div>
-      <img className="search1" src="search-10.svg" alt="Search" />
+     
+    
       <div className="sidebar">
         <div className="frame666">
           <img className="frame668" src="frame-6680.svg" alt="Frame" />
@@ -21,19 +20,20 @@ const Chat = ({ className, ...props }) => {
           </div>
         </div>
       </div>
-      <div className="outer">
+      <form className="outer">
         <div className="mainMessageBox">
-          <div className="body">Type a new message here</div>
-          <img className="send" src="send0.svg" alt="Send" />
-          <img className="emojis" src="emojis0.svg" alt="Emojis" />
-          <img
-            className="paperclip"
-            src="outline-messages-coversation-paperclip0.svg"
-            alt="Paperclip"
+          <input
+            type="text"
+            className="body"
+            placeholder="Type a new message here"
           />
-          <div className="frame3017"></div>
+          <div className="icon-container">
+            <img className="paperclip" src="outline-messages-coversation-paperclip0.svg" alt="Paperclip" />
+            <img className="emojis" src="emojis0.svg" alt="Emojis" />
+            <img className="send" src="./assets/send_icon.png" alt="Send" />
+          </div>
         </div>
-      </div>
+      </form>
       <div className="home"></div>
       <div className="caseSnapAi">CaseSnap AI</div>
       

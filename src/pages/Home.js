@@ -25,9 +25,12 @@ const Home = () => {
               Compassion drives us. Together, we serve, uplift, enhance courtroom efficiency and support fairer, quicker
               resolutions.
             </p>
+            <a href="/signup">
             <button className="donate-button">
-              <div className="text-wrapper-2">Join Now</div>
+              Join Now
             </button>
+            </a>
+           
           </div>
           <div className="text-wrapper-3">CaseSnap AI</div>
           <div className="nav-items">

@@ -8,6 +8,7 @@ import { GetInvolved } from "./pages/GetInvolved";
 import KnowledgeCorner from "./pages/KnowledgeCorner";
 import Chat from "./pages/Chat";
 import Login from "./pages/Login";
+import SignUp from "./pages/Login";
 import { Desktop } from "./pages/Desktop"; // Import Desktop as a named import
 
 
@@ -22,6 +23,8 @@ function App() {
         <Route path="/knowledge-corner" element={<KnowledgeCorner />} />
         <Route path="/chat" element={<Chat />} />
         <Route path="/login" element={<Login />} />
+        <Route path="/signup" element={<SignUp/>} />
+      
         <Route path="/desktop" element={<Desktop />} /> {/* Example route for Desktop */}
       </Routes>
     </Router>

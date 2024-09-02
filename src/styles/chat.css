@@ -1,15 +1,23 @@
+*{
+  width:100vw;
+  height:100vh;
+}
+
 .desktop9,
 .desktop9 * {
     width:100vw;
     height:100vh;
   box-sizing: border-box;
+  overflow-y: hidden;
   
 }
 .desktop9 {
   background: #ffffff;
-  height: 1024px;
+  
   position: relative;
   overflow: hidden;
+ 
+
   
 }
 .search {
@@ -103,7 +111,7 @@
   transform: rotate(0deg) scale(-1, 1);
 }
 .welcome-text{
-    border: 2px solid red;
+ 
   color: #ffffff;
   text-align: left;
   font-family: "Montserrat-Regular", sans-serif;
@@ -123,46 +131,39 @@
 .outer {
 
   background: #f9fafa;
-  border-radius: 8.09px;
-  border-style: solid;
-  border-color: #e0e0e0;
-  border-width: 1.35px;
+  border-radius: 8px;
+  border: 1.35px solid #e0e0e0;
   width: 988px;
   height: 106px;
   position: absolute;
   left: 427px;
   top: 85vh;
   overflow: hidden;
-  border:2px solid red;
+ 
 }
 .mainMessageBox {
-  background: var(--light-theme-rest-background-default-background, #ffffff);
-  border-radius: 6.74px;
-  border-style: solid;
-  border-color: #02040f;
-  border-width: 1.35px;
-  width: 631.15px;
-  height: 67.43px;
-  position: absolute;
-  left: calc(50% - 315.65px);
-  top: calc(50% - 33.65px);
-  box-shadow: 0px 0.69px 1.54px 0px rgba(0, 0, 0, 0.13),
-    0px 0.13px 0.39px 0px rgba(0, 0, 0, 0.11);
+  background: #ffffff;
+  border-radius: 20px;
+  border: 1px solid #e0e0e0;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+  width: calc(100% - 20px);
+  height: 55px;
+  margin: auto;
+  box-shadow: 0px 0.69px 1.54px rgba(0, 0, 0, 0.13), 0px 0.13px 0.39px rgba(0, 0, 0, 0.11);
 }
 .body {
   color: var(
     --light-theme-rest-foreground-default-foreground-1-424242,
     #424242
   );
-  text-align: left;
+  flex-grow: 1;
+  border: none;
+  outline: none;
+  padding-left: 10px;
   font-family: "Montserrat-Medium", sans-serif;
-  font-size: 16.183334350585938px;
-  line-height: 17.16px;
-  font-weight: 500;
-  position: absolute;
-  left: 16.18px;
-  top: calc(50% - 8.77px);
-  width: 650.4px;
+  font-size: 16px;
 }
 .send {
   width: 33.72px;
@@ -171,6 +172,7 @@
   left: 578.55px;
   top: 15.51px;
   overflow: visible;
+  margin-left:10px
 }
 .emojis {
   width: 33.72px;
